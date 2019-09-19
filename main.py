@@ -131,7 +131,7 @@ def brute_force(cities):
 
 
 if __name__ == "__main__":
-    db = DataBase("randomized_1.txt")
+    db = DataBase("example.txt")
     cities_list = db.get_cities()
     cities = []
     for index, label in cities_list:
